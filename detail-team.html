@@ -1,0 +1,53 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Submis 2</title>
+        <meta name="description" content="My first PWA" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#3087f1" />
+        <link rel="icon" href="/img/favicon.ico" type="image/gif" sizes="16x16">
+        <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Navigasi -->
+        <nav style="background: #3087f1" role="navigation">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo" id="logo-container">Foot Ball</a>
+                <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+                    <i class="material-icons">arrow_back</i>
+                </a>
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                <ul class="sidenav" id="nav-mobile"></ul>
+            </div>
+        </nav>
+        <!-- Akhir Navigasi -->
+        <div class="container" id="body-content" style="padding-top:10px;"></div>
+
+        <div class="fixed-action-btn">
+            <a class=" btn-floating btn-large indigo"
+                id="save">
+                <i class="large material-icons">save</i>
+            </a>
+        </div>
+
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large indigo"
+                id="delete">
+                <i class="large material-icons">delete</i>
+            </a>
+        </div>
+
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="js/api.js"></script>
+        <script src="js/idb.js"></script>
+        <script src="js/db.js"></script>
+        <script src="js/detail.js"></script>
+    </body>
+
+    </html>

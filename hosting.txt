@@ -1,5 +1,11 @@
 #Repository on github
 https://github.com/muhhizbe/muhhizbe.github.io
 
+#Deploy on github pages
+https://muhhizbe.github.io
+
 #Deploy on netlify reference to github repository below
 https://football-mpwa.netlify.app/
+
+#Deploy on firebase
+https://mpwa-football.web.app
